@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:title="Home"
+            android:id="@+id/homeid"
+            android:icon="@drawable/ic_home_black_24dp"></item>
+
+        <item
+            android:title="Mobile"
+            android:id="@+id/mobid"
+            android:icon="@drawable/ic_smartphone_black_24dp"></item>
+        <item
+            android:title="Shopping"
+            android:id="@+id/shopid"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"></item>
+
+        <item
+            android:title="other Detail">
+            <menu>
+
+        <item
+            android:title="Order"
+            android:id="@+id/orderid"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"></item>
+
+        <item
+            android:title="Userinfo"
+            android:id="@+id/userid"
+            android:icon="@drawable/ic_person_black_24dp"></item>
+            </menu>
+        </item>
+    </group>
+
+</menu>
